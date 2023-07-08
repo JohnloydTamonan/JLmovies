@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#moremovies" onclick="w3_close()" class="w3-bar-item w3-button">More Movies</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Download</div>
+    <div class="w3-center w3-padding-16">JL Movies</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="movies/lastofus.jpeg" alt="lastofus" style="width:100%">
+      <h3>,The last of us </h3>
+      <p>The Last of Us is a 2013 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment. Players control Joel, a smuggler tasked with escorting a teenage girl, Ellie, across a post-apocalyptic United States. The Last of Us is played from a third-person perspective.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="movies/Johnwick4 .jpeg" alt="Johnwick4" style="width:100%">
+      <h3>John wick 4</h3>
+      <p>Keanu Reeves as John Wick, a professional hitman and assassin who has gained a legendary reputation for his set of skills and is now hunted by the High Table.Release dates: March 6, 2023</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="movies/Thesupermariobros.jpeg" alt="Thesupermariobros" style="width:100%">
+      <h3>The super mario bros</h3>
+      American computer-animated adventure film based on Nintendo's Mario video game franchise. Produced by Universal Pictures, Illumination, and Nintendo, and distributed by Universal, the film was directed by Aaron Horvath and Michael Jelenic and written by Matthew fogil.
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="movies/Allofusaredead.jpeg" alt="Allofusaredead" style="width:100%">
+      <h3>All of us are dead</h3></h3>
+      <p>Trapped students must escape their high school which has become ground zero for a zombie virus outbreak</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="movies/justiceleague.jpeg" alt="justiceleague" style="width:100%">
+      <h3></a>Justice league</h3>
+      <p>The Justice League is an organization comprised of the world's greatest superheroes. Together, they operate as a team dedicated to fighting crime and injustice, and act as Earth's first line of defense from terrestrial, extra-terrestrial and inter-dimensional </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="movies/Residentevil.jpeg" alt="Residenevil" style="width:100%">
+      <h3>Resident evil</h3>
+      <p>  consists of survival horror, third-person shooter and first-person shooter games, with players typically surviving. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="movies/Guardianofthegalaxy.jpeg" alt="Guardianofthe galaxy:100%" style="width:100%">
+      <h3>Guardian of the galaxy</h3>
+      <p>The Guardians of the Galaxy are a team of intergalactic mercenaries who primarily defend the Andromeda galaxy. The team was founded in 2014 when Star-Lord, Gamora, Rocket Raccoon, Groot and Drax the Destroyer assembled to save Xandar from being decimated by Ronan the Accuser</p>            
+    </div>
+    <div class="w3-quarter">
+      <img src="movies/Operationredsea.jpeg" alt="Operationredsea" style="width:100%">
+      <h3>Operation red sea</h3>
+      <p>Operation Red Sea should definitely be on the must-see list for fans of action movies big on spectacle. --</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, movies</h3><br>
+    <img src="movies/movie.jpeg" alt="Me" class="movie" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>ABOUT</b></h4>
+      <h6><i>JLmovies</i></h6>
+      <p>Explore the thrilling world of action movies, filled with adrenaline-pumping scenes, high-stakes situations, and heroic protagonists. Discover the best action movies of all time and get your pulse racing with this exciting genre.Action movies are thrilling and full of excitement. Check out this page to discover the best action movies of all time and find recommendations for your next adrenaline-pumping movie night.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>RECOMMENDATIONS</h3>
+      <p>Looking for movie recommendations? Check out this list of must-watch films from various genres to keep you entertained and engaged. Find your next favorite movie here.</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>HERE ARE SOME MOVIES</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="movies/Insidious.jpeg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Insidious</span><br>
+          <span>A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further. </span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="movies/Transformersriseofthebeasts.jpeg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Transformer rise of the beasts</span><br>
+          <span>Transformers: Rise of the Beasts is a 2023 American science fiction action film based on Hasbro's Transformers toy line, and primarily influenced by the Beast Wars storyline.</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>Genres</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Horror</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Comedy</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Action</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">love story</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fantasy</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Romance</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Adventure</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drama</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Musical</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">thriller</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Adventure</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Science Fiction</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
